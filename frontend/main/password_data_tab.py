@@ -5,6 +5,7 @@ from frontend.widgets import SuccessBox
 from frontend.main.password_data_search_widget import SearchWidget 
 from frontend.main.password_data_table import TableWidget
 
+
 class PasswordDataTab(qtw.QWidget):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)

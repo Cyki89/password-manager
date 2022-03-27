@@ -48,6 +48,7 @@ class ModalForm(qtw.QDialog):
         self.bind_events()
 
     def set_config(self):
+        self.setWindowTitle('Auth Form')
         self.setContentsMargins(15, 10, 15, 15)
         self.setModal(True)
 

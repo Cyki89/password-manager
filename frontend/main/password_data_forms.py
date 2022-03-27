@@ -22,6 +22,7 @@ class PasswordDataForm(qtw.QDialog):
         self.render_ui()
 
     def set_config(self):
+        self.setWindowTitle('Password Data Form')
         self.setContentsMargins(15, 10, 15, 15)
         self.setModal(True)
 
