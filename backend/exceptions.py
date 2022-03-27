@@ -1,0 +1,6 @@
+class IntegrityError(BaseException):
+    ...
+
+
+class ObjectDoesNotFound(BaseException):
+    ...
